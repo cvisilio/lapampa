@@ -1,6 +1,11 @@
-<?php session_start();
+<?php
+if (session_status() !== PHP_SESSION_ACTIVE) {
+	session_start();
+}
 class Cart_compromisos {
     protected $cart_compromisos = array();
+    /** @var array */
+    public $cart_contents = array();
     
     public function __construct(){
         // get the shopping cart array from the session

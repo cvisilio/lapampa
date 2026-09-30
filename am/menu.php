@@ -1,7 +1,8 @@
 <?php 
-if(!isset($_SESSION['nivel']))
-session_start();
-$nivel_usuario=$_SESSION['nivel'];
+if (session_status() !== PHP_SESSION_ACTIVE) {
+	session_start();
+}
+$nivel_usuario=$_SESSION['nivel'] ?? null;
 // Enlaces del menú: desde importar_pdf/, importar_datos/ o formularios/ hay que subir un nivel (evita login.php?logout en subcarpeta)
 $sn = $_SERVER['SCRIPT_NAME'] ?? '';
 $menu_href_prefix = '';

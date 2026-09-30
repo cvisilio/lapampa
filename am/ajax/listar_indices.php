@@ -59,6 +59,7 @@ if($action == 'ajax'){
 				<tbody>	
 						<?php 
 						$finales=0;
+						$text_class = '';
 						while($row = mysqli_fetch_array($query)){	
 							$id=$row['id'];
 							$id_localidad= $row['id_localidad'];
