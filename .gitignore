@@ -3,6 +3,8 @@
 
 # Secrets / dumps
 conexion.php
+**/conexion*.php
+Connections/conexionUsuarios.php
 *.sql
 
 # OS / IDE
