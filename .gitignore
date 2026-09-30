@@ -5,6 +5,8 @@
 conexion.php
 **/conexion*.php
 Connections/conexionUsuarios.php
+**/includes/config.php
+**/includes/config.local.php
 *.sql
 
 # OS / IDE
