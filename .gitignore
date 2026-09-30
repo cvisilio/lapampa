@@ -1,0 +1,17 @@
+# La Pampa Peronista / AM
+# Sitio: lapampa (separado de factupyme)
+
+# Secrets / dumps
+conexion.php
+*.sql
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.code-workspace
+.vscode/
+.idea/
+
+# Logs / cache
+*.log
+error-php.log

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa Interactivo SVG con Imagen</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .contenedor {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        .svg-box, .imagen-box {
+            flex: 1;
+            min-width: 280px;
+        }
+        .localidades-box {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            width: 350px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #aaa;
+        }
+    </style>
+</head>
+<body>
+    <h2>Mapa Interactivo de Departamentos de La Pampa</h2>
+    <div class="contenedor">
+        <div class="svg-box">
+            <?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500">
+	<rect x="50" y="50" width="80" height="60" fill="#f3d996" stroke="black" onclick="mostrarLocalidades('Atreuco')"/>
+	<text x="90" y="85" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Atreuco</text>
+	<rect x="150" y="50" width="80" height="60" fill="#f5db97" stroke="black" onclick="mostrarLocalidades('Caleu Caleu')"/>
+	<text x="190" y="85" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Caleu Caleu</text>
+	<rect x="250" y="50" width="80" height="60" fill="#ff9999" stroke="black" onclick="mostrarLocalidades('Capital')"/>
+	<text x="290" y="85" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Capital</text>
+	<rect x="350" y="50" width="80" height="60" fill="#8fb2ea" stroke="black" onclick="mostrarLocalidades('Catriló')"/>
+	<text x="390" y="85" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Catriló</text>
+	<rect x="450" y="50" width="80" height="60" fill="#f346e3" stroke="black" onclick="mostrarLocalidades('Chalileo')"/>
+	<text x="490" y="85" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Chalileo</text>
+	<rect x="50" y="130" width="80" height="60" fill="#ef95e5" stroke="black" onclick="mostrarLocalidades('Chapaleufu')"/>
+	<text x="90" y="165" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Chapaleufu</text>
+	<rect x="150" y="130" width="80" height="60" fill="#f3d996" stroke="black" onclick="mostrarLocalidades('Chical Co')"/>
+	<text x="190" y="165" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Chical Co</text>
+	<rect x="250" y="130" width="80" height="60" fill="#ff99cc" stroke="black" onclick="mostrarLocalidades('Conhelo')"/>
+	<text x="290" y="165" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Conhelo</text>
+	<rect x="350" y="130" width="80" height="60" fill="#8fb2ea" stroke="black" onclick="mostrarLocalidades('Curacó')"/>
+	<text x="390" y="165" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Curacó</text>
+	<rect x="450" y="130" width="80" height="60" fill="#ef95e5" stroke="black" onclick="mostrarLocalidades('Guatraché')"/>
+	<text x="490" y="165" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Guatraché</text>
+	<rect x="50" y="210" width="80" height="60" fill="#f42d17" stroke="black" onclick="mostrarLocalidades('Hucal')"/>
+	<text x="90" y="245" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Hucal</text>
+	<rect x="150" y="210" width="80" height="60" fill="#ffb3d9" stroke="black" onclick="mostrarLocalidades('Lihuel Calel')"/>
+	<text x="190" y="245" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Lihuel Calel</text>
+	<rect x="250" y="210" width="80" height="60" fill="#eebd43" stroke="black" onclick="mostrarLocalidades('Limay Mahuida')"/>
+	<text x="290" y="245" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Limay Mahuida</text>
+	<rect x="350" y="210" width="80" height="60" fill="#95eb90" stroke="black" onclick="mostrarLocalidades('Loventué')"/>
+	<text x="390" y="245" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Loventué</text>
+	<rect x="450" y="210" width="80" height="60" fill="#95eb90" stroke="black" onclick="mostrarLocalidades('Maracó')"/>
+	<text x="490" y="245" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Maracó</text>
+	<rect x="50" y="290" width="80" height="60" fill="#f42d17" stroke="black" onclick="mostrarLocalidades('Puelén')"/>
+	<text x="90" y="325" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Puelén</text>
+	<rect x="150" y="290" width="80" height="60" fill="#f8e600" stroke="black" onclick="mostrarLocalidades('Quemú Quemú')"/>
+	<text x="190" y="325" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Quemú Quemú</text>
+	<rect x="250" y="290" width="80" height="60" fill="#d2b48c" stroke="black" onclick="mostrarLocalidades('Rancul')"/>
+	<text x="290" y="325" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Rancul</text>
+	<rect x="350" y="290" width="80" height="60" fill="#ff6666" stroke="black" onclick="mostrarLocalidades('Realicó')"/>
+	<text x="390" y="325" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Realicó</text>
+	<rect x="450" y="290" width="80" height="60" fill="#ff9999" stroke="black" onclick="mostrarLocalidades('Toay')"/>
+	<text x="490" y="325" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Toay</text>
+	<rect x="50" y="370" width="80" height="60" fill="#ffd700" stroke="black" onclick="mostrarLocalidades('Trenel')"/>
+	<text x="90" y="405" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Trenel</text>
+	<rect x="150" y="370" width="80" height="60" fill="#f8e600" stroke="black" onclick="mostrarLocalidades('Utracán')"/>
+	<text x="190" y="405" text-anchor="middle" font-size="12" fill="black" pointer-events="none">Utracán</text>
+</svg>
+
+        </div>
+        <div class="imagen-box">
+            <img src="f649b5a4-8e5c-4977-8229-0ad881cea93a.png" alt="Mapa de La Pampa a color">
+        </div>
+    </div>
+
+    <div class="localidades-box">
+        <strong>Departamento:</strong> <span id="nombreDepartamento">Ninguno</span><br>
+        <strong>Localidades:</strong>
+        <div id="listaLocalidades">Seleccioná un departamento</div>
+    </div>
+
+    <script>
+        const departamentoLocalidades = {
+    "Atreuco": [
+        "Doblas",
+        "Macachín",
+        "Miguel Riglos",
+        "Rolón",
+        "T. M. de Anchorena"
+    ],
+    "Caleu Caleu": [
+        "La Adela"
+    ],
+    "Capital": [
+        "Anguil",
+        "Santa Rosa"
+    ],
+    "Catriló": [
+        "Catriló",
+        "Lonquimay",
+        "Uriburu"
+    ],
+    "Chalileo": [
+        "Santa Isabel"
+    ],
+    "Chapaleufu": [
+        "Bernardo Larroude",
+        "Ceballos",
+        "Cnel. H. Lagos",
+        "Int. Alvear",
+        "Vertiz",
+        "Sarah"
+    ],
+    "Chical Co": [
+        "Algarrobo del Águila",
+        "La Humada"
+    ],
+    "Guatraché": [
+        "Alpachiri",
+        "Cnia. Sta Teresa",
+        "General Campos",
+        "Guatraché",
+        "Perú"
+    ],
+    "Hucal": [
+        "Abramo",
+        "Bernasconi",
+        "General San Martín",
+        "Jacinto Arauz"
+    ],
+    "Limay Mahuida": [
+        "La Reforma",
+        "Limay Mahuida"
+    ],
+    "Loventué": [
+        "Carro Quemado",
+        "Luan Toro",
+        "Telén",
+        "Victorica",
+        "Loventué"
+    ],
+    "Maracó": [
+        "Dorila",
+        "Gral. Pico",
+        "Agustoni",
+        "Speluzzi"
+    ],
+    "Puelén": [
+        "25 de mayo",
+        "Puelén",
+        "Casa de Piedra"
+    ],
+    "Quemú Quemú": [
+        "Colonia Barón",
+        "Miguel Cane",
+        "Quemú Quemú",
+        "Villa Mirasol",
+        "Relmo"
+    ],
+    "Rancul": [
+        "Caleufú",
+        "La Maruja",
+        "Parera",
+        "Rancul",
+        "Pichi Huinca",
+        "Quetrequén"
+    ],
+    "Realicó": [
+        "Alta Italia",
+        "Embajador Martini",
+        "Ingeniero Luiggi",
+        "Realicó",
+        "Adolfo Van Praet",
+        "Falucho",
+        "Maissonave"
+    ],
+    "Toay": [
+        "Toay"
+    ],
+    "Trenel": [
+        "Arata",
+        "Metileo",
+        "Trenel"
+    ],
+    "Utracán": [
+        "Ataliva Roca",
+        "General Acha",
+        "Quehué",
+        "Chacharramendi",
+        "Colonia Sta. María",
+        "Unanue"
+    ],
+    "Lihuel Calel": [
+        "Cuchillo Có"
+    ],
+    "Conhelo": [
+        "Conhello",
+        "Eduardo Castex",
+        "Mauricio Mayer",
+        "Monte Nievas",
+        "Winifreda",
+        "Rucanelo"
+    ],
+    "Curacó": [
+        "Gobernador Duval",
+        "Puelches"
+    ]
+};
+
+        function mostrarLocalidades(departamento) {
+            document.getElementById('nombreDepartamento').textContent = departamento;
+            const localidades = departamentoLocalidades[departamento] || [];
+            document.getElementById('listaLocalidades').innerHTML =
+                '<ul>' + localidades.map(loc => '<li>' + loc + '</li>').join('') + '</ul>';
+        }
+    </script>
+</body>
+</html>

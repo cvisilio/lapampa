@@ -1,0 +1,64 @@
+<?php
+ require_once("../classes/Login.php");
+ $login = new Login();
+ if ($login->isUserLoggedIn() == true) 
+  {	
+	if (empty($_POST['edit_monto'])){
+		$errors[] = "Monto está vacío.";
+	} elseif (!empty($_POST['edit_monto'])){
+	require_once ("../conexion.php");//Contiene funcion que conecta a la base de datos
+	// escaping, additionally removing everything that could be (html/javascript-) code
+   
+   // $localidad = intval($_POST["edit_localidad"]);
+	
+	$monto = floatval($_POST["edit_monto"]);
+	$partida = intval($_POST["edit_partida"]);
+	$anio = intval($_POST["edit_anio"]);
+	$ley = intval($_POST["edit_ley"]);
+	$id=intval($_POST['edit_id']);	
+	
+	// UPDATE data into database
+	//id_localidad='".$localidad."',
+    $sql = "UPDATE disponibilidades_x_leyes SET  monto_disponible='".$monto."',anio='".$anio."',partida='".$partida."',id_ley='".$ley."' WHERE id='".$id."' ";
+    $query = mysqli_query($con,$sql);
+    // if product has been added successfully
+    if ($query) {
+        $messages[] = "El registro ha sido actualizado con éxito.";
+    } else {
+        $errors[] = "Lo sentimos, la actualización falló. Por favor, regrese y vuelva a intentarlo.";
+    }
+		
+	} else 
+	{
+		$errors[] = "desconocido.";
+	}
+if (isset($errors)){
+			
+			?>
+			<div class="alert alert-danger" role="alert">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+					<strong>Error!</strong> 
+					<?php
+						foreach ($errors as $error) {
+								echo $error;
+							}
+						?>
+			</div>
+			<?php
+			}
+			if (isset($messages)){
+				
+				?>
+				<div class="alert alert-success" role="alert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+						<strong>¡Bien hecho!</strong>
+						<?php
+							foreach ($messages as $message) {
+									echo $message;
+								}
+							?>
+				</div>
+				<?php
+			}
+}			
+?>			
