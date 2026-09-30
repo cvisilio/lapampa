@@ -1,2 +1,14 @@
 Options -Indexes
 DirectoryIndex index.php index.html
+
+# Local (XAMPP / mod_php): log propio de La Pampa
+<IfModule mod_php.c>
+  php_flag log_errors On
+  php_flag display_errors Off
+  php_value error_reporting 32767
+  php_value error_log "C:/xampp/htdocs/lapampa/error-lp.log"
+</IfModule>
+
+<Files "error-lp.log">
+  Require all denied
+</Files>
