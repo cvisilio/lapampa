@@ -1,3 +1,13 @@
+<?php
+if (!defined('GOOGLE_MAPS_API_KEY')) {
+	$__d = __DIR__;
+	for ($__i = 0; $__i < 6; $__i++) {
+		$__f = $__d . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'google_maps.php';
+		if (is_readable($__f)) { require_once $__f; break; }
+		$__d = dirname($__d);
+	}
+}
+?>
    
 <?php
         $locations=array();
@@ -23,7 +33,7 @@
         //echo $locations[0]['name'].": In stock: ".$locations[0]['lat'].", sold: ".$locations[0]['lng'].".<br>";
         //echo $locations[1]['name'].": In stock: ".$locations[1]['lat'].", sold: ".$locations[1]['lng'].".<br>";
     ?>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAbnCWDJwlWVfQW_yT1jqgOQwmFXURokKM"></script> 
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=<?php echo htmlspecialchars(GOOGLE_MAPS_API_KEY, ENT_QUOTES, 'UTF-8'); ?>"></script> 
     <script type="text/javascript">
 	//<a href="<?php //echo $locations[0]['lnk'];?>">Book this Person Now</a>
     var map;

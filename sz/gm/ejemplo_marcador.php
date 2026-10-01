@@ -1,3 +1,13 @@
+<?php
+if (!defined('GOOGLE_MAPS_API_KEY')) {
+	$__d = __DIR__;
+	for ($__i = 0; $__i < 6; $__i++) {
+		$__f = $__d . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'google_maps.php';
+		if (is_readable($__f)) { require_once $__f; break; }
+		$__d = dirname($__d);
+	}
+}
+?>
 
  <style>
  html,
@@ -11,7 +21,7 @@ body,
 </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?language=en&key=AIzaSyAbnCWDJwlWVfQW_yT1jqgOQwmFXURokKM">
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?language=en&key=<?php echo htmlspecialchars(GOOGLE_MAPS_API_KEY, ENT_QUOTES, 'UTF-8'); ?>">
     </script>
 <input id="lat" value="-37.0653398" />
 <input id="long" value="-65.1397698" />

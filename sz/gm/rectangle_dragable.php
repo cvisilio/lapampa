@@ -1,3 +1,13 @@
+<?php
+if (!defined('GOOGLE_MAPS_API_KEY')) {
+	$__d = __DIR__;
+	for ($__i = 0; $__i < 6; $__i++) {
+		$__f = $__d . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'google_maps.php';
+		if (is_readable($__f)) { require_once $__f; break; }
+		$__d = dirname($__d);
+	}
+}
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -76,7 +86,7 @@
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbnCWDJwlWVfQW_yT1jqgOQwmFXURokKM&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=<?php echo htmlspecialchars(GOOGLE_MAPS_API_KEY, ENT_QUOTES, 'UTF-8'); ?>&callback=initMap">
     </script>
   </body>
 </html>

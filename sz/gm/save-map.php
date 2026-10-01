@@ -1,4 +1,12 @@
 <?php
+if (!defined('GOOGLE_MAPS_API_KEY')) {
+	$__d = __DIR__;
+	for ($__i = 0; $__i < 6; $__i++) {
+		$__f = $__d . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR . 'google_maps.php';
+		if (is_readable($__f)) { require_once $__f; break; }
+		$__d = dirname($__d);
+	}
+}
 
  include('locations_model.php');
  
@@ -44,7 +52,7 @@
 	
     </style>
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?language=en&key=AIzaSyAbnCWDJwlWVfQW_yT1jqgOQwmFXURokKM">
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?language=en&key=<?php echo htmlspecialchars(GOOGLE_MAPS_API_KEY, ENT_QUOTES, 'UTF-8'); ?>">
     </script>
 
  
