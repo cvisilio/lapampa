@@ -1,0 +1,10 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+#svgMap {
+    width: 800px;
+    height: 850px;
+	z-index:auto;
+}
+

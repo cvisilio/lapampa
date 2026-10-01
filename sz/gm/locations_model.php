@@ -1,0 +1,125 @@
+<?php
+// require_once ("../config/db.php");
+// require_once ("../config/conexion.php");
+// Gets data from URL parameters.
+if(isset($_GET['add_location'])) {
+    add_location();
+}
+if(isset($_GET['confirm_location'])) {
+    confirm_location();
+}
+
+
+
+function add_location(){
+      $con=mysqli_connect ("localhost", 'c0780240_sz', '48kobuniFA','c0780240_sz');
+    if (!$con) {
+        die('Not connected : ' . mysqli_connect_error());
+    }
+   
+    $lat = $_GET['lat'];
+    $lng = $_GET['lng'];
+    $description =$_GET['description'];
+	$id_obra=$_GET['id_obra'];
+	$id_categoria=$_GET['id_categoria'];
+    // Inserts new row with place data.
+    $query = sprintf("INSERT INTO locations " .
+        " (id, lat, lng, description,id_obra,id_categoria) " .
+        " VALUES (NULL, '%s', '%s', '%s', '%s','%s');",
+        mysqli_real_escape_string($con,$lat),
+        mysqli_real_escape_string($con,$lng),
+        mysqli_real_escape_string($con,$description),
+		mysqli_real_escape_string($con,$id_obra),
+		mysqli_real_escape_string($con,$id_categoria));
+
+    $result = mysqli_query($con,$query);
+    echo"Insertado con &eacute;xito";
+    if (!$result) {
+        die('Invalid query: ' . mysqli_error($con));
+    }
+}
+function confirm_location(){
+      $con=mysqli_connect ("localhost", 'c0780240_sz', '48kobuniFA','c0780240_sz');
+    if (!$con) {
+        die('Not connected : ' . mysqli_connect_error());
+    }
+  
+	
+    $id =$_GET['id'];
+    $confirmed =$_GET['confirmed'];
+    // update location with confirm if admin confirm.
+    $query = "update locations set location_status = $confirmed WHERE id = $id";
+    $result = mysqli_query($con,$query);
+    echo "Insertado con &eacute;xito";
+    if (!$result) {
+        die('Invalid query: ' . mysqli_error($con));
+    }
+}
+function get_confirmed_locations(){
+     $con=mysqli_connect ("localhost", 'c0780240_sz', '48kobuniFA','c0780240_sz');
+    if (!$con) {
+        die('Not connected : ' . mysqli_connect_error());
+    }
+  
+	
+    // update location with location_status if admin location_status.
+    $sqldata = mysqli_query($con,"
+select id ,lat,lng,description,location_status as isconfirmed,id_obra,id_categoria from locations WHERE  location_status = 1");
+
+    $rows = array();
+
+    while($r = mysqli_fetch_assoc($sqldata)) {
+        $rows[] = $r;
+
+    }
+
+    $indexed = array_map('array_values', $rows);
+    //  $array = array_filter($indexed);
+
+    echo json_encode($indexed);
+    if (!$rows) {
+        return null;
+    }
+}
+function get_all_locations(){
+    $con=mysqli_connect ("localhost", 'c0780240_sz', '48kobuniFA','c0780240_sz');
+    if (!$con) {
+        die('Not connected : ' . mysqli_connect_error());
+    }
+   
+	
+    // update location with location_status if admin location_status.
+    $sqldata = mysqli_query($con,"
+select id ,lat,lng,description,location_status as isconfirmed,id_obra,id_categoria from locations
+  ");
+
+    $rows = array();
+    while($r = mysqli_fetch_assoc($sqldata)) {
+        $rows[] = $r;
+
+    }
+  $indexed = array_map('array_values', $rows);
+  //  $array = array_filter($indexed);
+
+    echo json_encode($indexed);
+    if (!$rows) {
+        return null;
+    }
+}
+function array_flatten($array) {
+    if (!is_array($array)) {
+        return FALSE;
+    }
+    $result = array();
+    foreach ($array as $key => $value) {
+        if (is_array($value)) {
+            $result = array_merge($result, array_flatten($value));
+        }
+        else {
+            $result[$key] = $value;
+        }
+    }
+    return $result;
+}
+
+?>

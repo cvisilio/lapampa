@@ -1,0 +1,10 @@
+
+ Corrección Colores Degradado en mapa (05-07-2019)
+
+ Incorporación módulo de Gestión de Archivos a través del script "tinyfilemanager.php" (27-07-2019)
+
+ Informacion institucional de localidades (05-11-2019)
+ 
+ 
+
+

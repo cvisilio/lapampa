@@ -1,0 +1,62 @@
+1. Agregar en archivo principal (al archivo que llama donde se aloja el select) lo siguiente
+
+<script src="plugins/select2/select2.full.min.js"></script>
+<link href="plugins/select2/select2.min.css" rel="stylesheet" />
+
+<script>
+    
+   $(function() {
+         
+		$(".select2").select2();
+		  load(1);
+		
+		
+			    
+		$('.select2').select2({
+        dropdownParent: $('#nombre_del_contenedor_del_select') //Es el nombre id del div que está en archivo temporal que es visualizado luego de ser llamado, ejemplo en sitio AM AgregarTransferenciaTemporalModal
+	
+    });	  
+		  
+ });
+
+$(".select2").select2({        
+    ajax: {
+        url: "ajax/motivos_select2.php", // archivo que llenará el select
+        dataType: 'json',
+        delay: 250,
+        data: function (params) {
+            return {
+                q: params.term // search term
+			
+            };
+        },
+        processResults: function (data) {
+            // parse the results into the format expected by Select2.
+            // since we are using custom formatting functions we do not need to
+            // alter the remote JSON data
+			
+            return {
+                results: data
+				
+            };
+        },
+        cache: true
+		
+		
+		
+    },
+    minimumInputLength: 2
+	
+}) 
+ 
+</script>
+
+
+		
+
+2. En el archivo donde está el select 2, en el select en cuestión poner style="width: 100% !important;" class="form-control select2" 
+
+Ejemplo:
+ 
+<select style="width: 100% !important;" class="form-control select2" name="nombrexxxx" id="nombrexxxx" required>
+

@@ -7,6 +7,7 @@ conexion.php
 Connections/conexionUsuarios.php
 **/includes/config.php
 **/includes/config.local.php
+**/config/db.php
 *.sql
 
 # OS / IDE
@@ -19,3 +20,4 @@ Thumbs.db
 # Logs / cache
 *.log
 error-php.log
+error-lp.log

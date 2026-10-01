@@ -1,0 +1,19 @@
+<select multiple="multiple" name="graficos" id="graficos">
+                      <option value="" >Sin Grafico </option>
+                      						
+						<?php 
+					        $sql=mysqli_query($con,"select * from graficos_estadisticos");
+				         
+						 	while ($rw=mysqli_fetch_array($sql)){
+								$id=$rw['id_grafico'];
+								$name=$rw['titulo'];
+								if ($id==$grafico1){$selected1="selected";}else{$selected1="";}
+							   
+							?>
+                            
+							<option value="<?php echo $id;?>" <?php echo
+							 $selected1;?>><?php echo $name;?> </option>
+							<?php
+							}
+						?>
+					  </select>

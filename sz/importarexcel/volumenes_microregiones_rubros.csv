@@ -1,0 +1,39 @@
+rubro;nombre;id_grupo;Region_1;Region_2;Region_3;Region_4;Region_5;Region_6;Region_7;Region_8;Region_9;Region_10
+22;Girasol;1;33;112;31;;;30;94;;5;
+23;Maiz;1;28;138;10;;0,3;15;37;1;0,3;1
+24;Soja;1;48;245;5;;;7;37;;2;
+25;Trigo;1;8;37;14;;;14;11;1;14;
+26;Bovinos Cría;2;190;366;209;144;215;325;248;440;374;223
+27;Bovinos Invernada;2;171;433;114;5;13;126;175;21;57;25
+28;Bovinos Tambo;2;2;19;0,7;;;4;18;;14;
+29;Ovinos;2;15;46;20;13;15;49;32;28;59;9
+30;Porcinos;2;7;26;9;;;29;4;;5;2
+31;Caprinos;2;1;2;4;44;1;2;;7;1;16
+32;Apicultura;3;21;38;17;;3;23;37;3;28;2
+33;Frutales;3;;;;;;;;;;837
+34;Hortalizas;3;2;9;1;;2;15;15;1;5;5
+35;Alimentos y Bebidas;4;37;137;1;0,05;3;66;63;4;17;16
+36;Metalúrgica;4;3;15;4;0,08;0,2;9;2;1;2;
+37;Minerales no Metalíf;4;0,5;7;0,3;;;7;0,2;10;0,2;
+38;Autopartes;4;;5;;;;4;;;;
+39;Máquinas y Equipos;4;;6;0,4;;;;0,4;;;
+40;Madera;4;5;2;3;;;4;;0,3;;
+41;Textil, Vestir y Cue;4;1;40;1;;;40;0,5;0,4;0,4;
+42;Muebles y Colchones;4;1;2;1;0,1;0,2;;0,4;;0,4;0,2
+43;Impresión y Edición ;4;;3;;;;12;;1;0,4;
+44;Caucho y Plástico;4;;6;;;;;;;;
+45;Sustancias Químicas;4;;4;;;;2;20;;;0,1
+46;Sal CINa;5;;;;;;;5;39;310;375
+47;Sal SO4Na2;5;;;;;;;;;28;
+48;Arena;5;;;;;;4;;2;;19
+49;Tosca;5;5;2;;;;45;;;;
+50;Bentonita;5;;;;;;;;;;44
+51;Piedra Caliza;5;;;;0,3;;;;2;;
+52;Canto Rodado;5;;;;;;;;;;3
+53;Riolita;5;;;;;;;;;;0,5
+54;Petróleo y Gas;5;;;;;;;;;;993
+55;Cotos de Caza;6;;1;1;16;7;3;14;8;;
+56;Estancias Turísticas;6;;1;1;3;2;4;;3;2;
+57;Piscicultura;6;;;;2;;;;;;12
+58;Hoteles (Plazas);7;202;700;185;42;149;145;186;465;184;217
+59;Camiones y Acoplados;7;2;8;2;;1;6;3;1;2;1

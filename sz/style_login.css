@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+input,
+button,
+select,
+textarea {
+  outline: none;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+strong,
+em {
+  font-weight: 700;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:focus,
+input:focus {
+  outline: none;
+  list-style: none;
+}
+html,
+body {
+  font-family: 'Poppins', sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI,
+    segoe ui, SegoeUI, Segoe, Helvetica, Arial, sans-serif;
+  color: #3a3f3f;
+  background: #e5e7ed;
+  position: relative;
+  -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.login-page .login-block {
+  width: 100%;
+  max-width: 344px;
+}
+
+.login-block {
+  background-color: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 5px;
+}
+.login-block h1,
+.login-block h6 {
+  font-family: Open Sans, sans-serif;
+  color: #96a2b2;
+  letter-spacing: 1px;
+}
+.login-block h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 10px 0 30px;
+}
+.login-block h6 {
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.login-block .form-group {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.login-block .logo {
+  max-width: 200px;
+}
+.login-block .form-control,
+.login-block .form-control:focus,
+.login-block .input-group-addon,
+.login-block .input-group-addon:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.login-block .form-control {
+  font-size: 17px;
+  border-radius: 0px;
+}
+.login-block input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #fff inset;
+  -webkit-text-fill-color: #818a91;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.login-block .input-group-addon {
+  color: #007bff;
+  font-size: 26px;
+  opacity: 0.5;
+}
+.login-block .btn-block {
+  margin-top: 30px;
+  padding: 15px;
+  background: #007bff;
+  border-color: #007bff;
+}
+.login-block .hr-xs {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.login-footer {
+  margin-top: 60px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.login-block .captcha-error{
+    background: #f44336;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 6px;
+    display: none;
+}
+.login-block .captcha-error.show{
+    display: block;
+}

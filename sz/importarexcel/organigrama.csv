@@ -1,0 +1,284 @@
+id;id_cuenta_dependiente;codigo;denominacion;Funcionario;imputable;tipo_saldo;modulos
+40;26;1;Secretario Privado Gobernador; Claudio Oscar Alou.;0;D;45
+41;26;1;Asesora Gubernamental; María Cristina Garello.;0;D;45
+42;26;1;Presidente Instituto de Seguridad Social; Miguel Tavella.;0;D;45
+43;26;1;Delegado Organizador Comuna Casa de Piedra; Carlos Martín Borthiry.;0;D;45
+44;26;1;Asesor del Gobernador; Juan Carlos Matilla.;0;D;45
+45;26;1;Subsecretaría General; Bruno Gonzalo Ramírez.;0;D;45
+46;26;1;Dirección General de Administración Centro Cívico - General Pico; Marcelo Petrelli.;0;D;45
+47;26;1;Dirección General Operativo Centro Cívico - General Pico; Marcelo Ricardo García Mosmann.;0;D;45
+48;26;1;Coordinación Administrativa Centro Cívico - General Pico; Elena Beatriz Soto.;0;D;45
+49;26;1;Dirección General de Servicios Especiales; Jorge Oscar Simón.;0;D;45
+50;26;1;Dirección General de Servicios Generales; Enrique Augusto Sbriz.;0;D;45
+51;26;1;Subdirección General de Seguridad e Higiene; Martín Hernán Schpetter.;0;D;45
+52;26;1;Subsecretaría de Gestión Pública; Araldo Ariel Eleno Arrola.;0;D;45
+53;26;1;Dirección de Ceremonial y Protocolo; Julia Raquel Barrio.;0;D;45
+54;26;1;Subsecretaría de Ambiente; Raúl Fabián Tittarelli.;0;D;45
+55;26;1;Dirección General de Gestión Ambiental; Miguel Angel Fantini.;0;D;45
+56;26;1;Subsecretaria de Medios de Comunicación; José Carlos Pérez.;0;D;45
+57;26;1;Dirección General de Medios de Comunicación; José Jorge Nocoletti.;0;D;45
+58;26;1;Dirección General de Contenidos; Carlos Alberto Gossio.;0;D;45
+59;26;1;Dirección General de Comunicación Social; Miriam Rosana Álvarez.;0;D;45
+60;26;1;Subdirección de Prensa; Rubén Oscar Gaite.;0;D;45
+61;26;1;Dirección de Canal 3; Mario Fernando Ziaurriz.;0;D;45
+62;26;1;Coordinador General Comuna Casa de Piedra; Daniel Alberto Vico.;0;D;45
+63;26;1;Coordinación Administrativa Comuna Casa de Piedra; Walter Oscar Torres.;0;D;45
+64;26;1;Coordinador de Mantenimiento y Conservación Casa de Piedra; Enrique Ysmael Fuentes.;0;D;45
+65;26;1;Administrador Residencia Gobernador; Daniel Nowak.;0;D;45
+66;33;1;Secretaria de Fiscalía y Procuración de Rentas; Raúl Alberto Reyes.;0;D;45
+67;33;1;Procuradora General de Rentas; Griselda Silvia Ostertag.;0;D;45
+68;34;1;Secretaría Letrada de asesoría; Nicolás Alejandro González.;0;D;45
+69;34;1;Dirección de Legislación; Claudia Alejandra Machado.;0;D;45
+70;12;1;Subsecretaría de Justicia y Registros Públicos; Pablo Javier Boleas.;0;D;45
+71;12;1;Dirección General del Registro de la Propiedad Inmueble; Juan Mecca.;0;D;45
+72;12;1;Subdirección General; José Luis Scarpello.;0;D;45
+73;12;1;Dirección General de Superintendencia de Personas Jurídicas y Registro Público de Comercio; Guillermo Eduardo Ruano.;0;D;45
+74;12;1;Subdirección General de Fiscalización y Registro de Entidades de Bien Público; Jorge Martín Lorda.;0;D;45
+75;12;1;Subdirección General de Superintendencia de Personas Jurídicas y Registro Público de Comercio - Santa Rosa; Andrea Celeste Schmidt.;0;D;45
+76;12;1;Subdirección General de Superintendencia de Personas Jurídicas y Registro Público de Comercio - General Pico; Lucas Agustín Rosales;0;D;45
+77;12;1;Dirección General de Defensa del Consumidor; Florencia Rabario.;0;D;45
+78;12;1;Dirección General de Justicia; Nicolás Leonel Idiart.;0;D;45
+79;12;1;Dirección General del Registro Civil y Capacidad de las Personas; Fernando Miguel Rolando.;0;D;45
+80;12;1;Subdirección General del Registro Civil y Capacidad de las Personas; Vanesa Esther Torres.;0;D;45
+81;12;1;Subsecretaria de Culto; Ramón Alberto Gómez.;0;D;45
+82;12;1;Dirección General de Culto; Dalmiro Javier Arosteguichar.;0;D;45
+83;12;1;Subsecretaría de Derechos Humanos; Juan Pablo Fasce.;0;D;45
+84;12;1;Dirección General de Promoción de Derechos Humanos; Ana Inchaurraga.;0;D;45
+85;12;1;Dirección General de Protección de Derechos Humanos; Rocío Sánchez.;0;D;45
+86;12;1;Subdirección General de Prevención de la Violencia Institucional y Social; Federico Roberto Costabel.;0;D;45
+87;12;1;Subsecretaría de Cooperativas y Mutuales; Fabián Celestino Bruna;0;D;45
+88;12;1;Dirección General de Cooperativas y Mutuales.;Vacante;0;D;45
+89;4;1;Secretario Privado; Adrián Maximiliano Lanz.;0;D;45
+90;4;1;Subsecretario de Seguridad Ciudadana; Agustín Manuel García.;0;D;45
+91;4;1;Subsecretaría de Lucha contra el Narcotráfico; Néstor Ángel Fontan.;0;D;45
+92;4;1;Directora de Políticas Socializadoras; Mónica Leonor Riquelme.;0;D;45
+93;4;1;Dirección de Presupuesto y Auditoria; Analía Núñez.;0;D;45
+94;4;1;Dirección General de Seguridad Vial; Fernando Darian Funes.;0;D;45
+95;4;1;Dirección General de Defensa Civil; Luis Alberto Clara.;0;D;45
+96;4;1;Subdirector General de Defensa Civil; David Mario García.;0;D;45
+97;4;1;Director General de Relaciones Institucionales; Hector Iervasi.;0;D;45
+98;4;1;Dirección General de Prevención Comunitaria; Rosana Beatriz Aquino.;0;D;45
+99;3;1;Secretario Privado; Maximiliano Javier Ceballo.;0;D;45
+100;3;1;Dirección General de Planificación y Evaluación de Políticas Sociales; María Laura Ramborger.;0;D;45
+101;3;1;Coordinación Legal y Técnico; Fabricio Eduardo Santos.;0;D;45
+102;3;1;Subsecretaría de Juventud; Gabriel Jonathan Orellano.;0;D;45
+103;3;1;Dirección General de Juventud; Rodrigo Emanuel Draeger.;0;D;45
+104;3;1;Subdirector General de Juventud; Melina Jesica Alzamora.;0;D;45
+105;3;1;Dirección General de Relaciones Institucionales de la Juventud; Debora Goedelmann.;0;D;45
+106;3;1;Dirección General de Casas de Juventud; Yamila Nair Mustafa Olguín.;0;D;45
+107;3;1;Dirección del Observatorio de la Juventud; Héctor Manuel Soria.;0;D;45
+108;3;1;Subsecretaria de Economía Social; Yolanda Miriam Carrizo.;0;D;45
+109;3;1;Director General de Economía Social; Sergio Daniel Gómez.;0;D;45
+110;3;1;Subdirector General de Economía Social; Rodrigo Mauro Giraudo.;0;D;45
+111;3;1;Director General de Agricultura Familiar; Mariano Alende.;0;D;45
+112;3;1;Subsecretaría de Deportes, Recreación y Turismo Social; Jorge Luis Ceferino Martínez Almudévar.;0;D;45
+113;3;1;Dirección General de Deporte Federado; Alejandro Agustín Aguiriano.;0;D;45
+114;3;1;Dirección General de Deportes; Alejandro Cesar Bagatto.;0;D;45
+115;3;1;Dirección de Turismo Social; Vicente Rubén Labegorra.;0;D;45
+116;3;1;Coordinador Zona Norte Subsecretaria de Deportes ; Amado Retamozzo.;0;D;45
+117;3;1;Subsecretaria de Niñez, Adolescencia y Familia; Juan Pablo Bonino.;0;D;45
+118;3;1;Dirección General de Niñez, Adolescencia y Familia; Rodrigo Oscar Lofvall.;0;D;45
+119;3;1;Subdirector General de Acogimiento Familiar y Residencias; María Marta Viglino.;0;D;45
+120;3;1;Subdirección General de Dispositivos de Atención Comunitaria y Adolescencia; María Gimena Funes.;0;D;45
+121;3;1;Subdirector General de Protección de Derechos; Irma Valeria Villafañe.;0;D;45
+122;3;1;Director del Instituto Provincial de Educación y Socialización de Adolescentes; Sergio Alejandro Frencia.;0;D;45
+123;3;1;Dirección de Discapacidad; Ivan Gabriel Poggio.;0;D;45
+124;3;1;Dirección de Prevención y Asistencia de la Violencia Familiar; Claudia Beatriz Santiago.;0;D;45
+125;3;1;Dirección de Adultos Mayores; María Silvia González.;0;D;45
+126;3;1;Coordinador de Área de Atención al Público del Centro para el Plan de Inclusión Provisional; Alicia Graciela Arano.;0;D;45
+127;3;1;Subsecretaría de Política Social; Marta Graciela Salvini.;0;D;45
+128;3;1;Director General de Promoción Social; Cristian Javier Weis.;0;D;45
+129;3;1;Director General de Descentralización; Damián Nicolás Cabello.;0;D;45
+130;3;1;Subdirectora General de Descentralización; Lorena Valeria Subelet.;0;D;45
+131;3;1;Delegado Zona Sur; Sonia Analía Rivero.;0;D;45
+132;3;1;Delegado Zona Este; Adriana Raquel Schiller.;0;D;45
+133;3;1;Delegada Regional Zona Centro; Graciela Silvana Losarcos.;0;D;45
+134;3;1;Delegada Regional Zona Oeste; Nehuen Dentoni Appap.;0;D;45
+135;1;1;Secretaría Privada; Liliana Beatriz Rekofsky.;0;D;45
+136;1;1;Subsecretaría de Salud Mental y Adicciones ; Martín Sebastián Malga.;0;D;45
+137;1;1;Dirección General de Salud Mental; Manuel Ignacio Pizarro.;0;D;45
+138;1;1;Dirección de Dispositivos Intermedios y Equipos Centrales; María Paula Weigel.;0;D;45
+139;1;1;Dirección de Prevención, Promoción y Capacitación; Lautaro García.;0;D;45
+140;1;1;Dirección de Adicciones; Ivana Lorene Chillemi.;0;D;45
+141;1;1;Subsecretaría de Administración; Fernanda Ricci.;0;D;45
+142;1;1;Dirección de Recursos Físicos; Lisa del Carmen Lara Lasierra.;0;D;45
+143;1;1;Dirección de Auditoría Médica; Nora Beatriz Lahournere.;0;D;45
+144;1;1;Dirección de Administración Sanitaria; Eduardo Daniel Suppo.;0;D;45
+145;1;1;Dirección de Farmaceútica e Insumos; Alejandro Javier Ferrero.;0;D;45
+146;1;1;Coordinación de Planta Automotor; Pedro Eleazar Arcuri.;0;D;45
+147;1;1;Dirección de Prestaciones; Romina Sánchez.;0;D;45
+148;1;1;Dirección de Licitaciones y Gestión; Guillermo Carlos Rodríguez Soto.;0;D;45
+149;1;1;Subsecretaría de Salud; Raúl Vera.;0;D;45
+150;1;1;Dirección de Epidemiología; Ana Gabriela Bertone.;0;D;45
+151;1;1;Coordinación de Salud; Araceli Ana Silvestro.;0;D;45
+152;1;1;Dirección General de Asistencia Social y Comunitaria; Cintia Carina Zalabardo.;0;D;45
+153;1;1;Jefe Zona Sanitaria V; Stella Maris Clemant.;0;D;45
+154;1;1;Jefe Zona Sanitaria IV; Celina Alejandra Abdala.;0;D;45
+155;1;1;Jefe Zona Sanitaria III; Carlos Rodrigo Ortiz.;0;D;45
+156;1;1;Jefe Zona Sanitaria II; Carlos Javier Benítez.;0;D;45
+157;1;1;Jefe Zona Sanitaria I; Diego Mauricio Fanfliet.;0;D;45
+158;2;1;Secretario Privado; Marcos Cristián Schmauder.;0;D;45
+159;2;1;Director General de Tecnologías para la Gestión Educativa; Martín Sebastián Baudino.;0;D;45
+160;2;1;Director General de Personal Docente; Horacio Alberto Ghisio.;0;D;45
+161;2;1;Director General de Administración Escolar; Miguel Ángel Díaz.;0;D;45
+162;2;1;Dirección de Gestión Administrativo Contable; José Esteban Garre.;0;D;45
+163;2;1;Delegada Regional Zona Norte; Adriana Elizabet Cerdá.;0;D;45
+164;2;1;Delegada Regional Zona Sur; María Laura Mella.;0;D;45
+165;2;1;Subsecretario de Coordinación; Marcos Luis Carnicelli.;0;D;45
+166;2;1;Directora General de Planeamiento; Carmen Beatriz Iuliano.;0;D;45
+167;2;1;Subsecretario de Educación; Marcela Claudia Feuerschvenger.;0;D;45
+168;2;1;Director General de Tranversalidad de la Educación Inclusiva; Ladio Damián Scheer Becher.;0;D;45
+169;2;1;Directora General de Educación Inicial; María Jimena Afonso García.;0;D;45
+170;2;1;Dirección General de Educación Primaria; María Magdalena Godoy.;0;D;45
+171;2;1;Dirección General de Educación de Secundaria; María Gabriela Mayoral.;0;D;45
+172;2;1;Dirección General de Educación Superior; Mabel Irene García.;0;D;45
+173;2;1;Dirección de Educación de Gestión Privada; Alfredo Alberto Gonnet Bertinat.;0;D;45
+174;2;1;Dirección de Educación Permanente de Jóvenes y Adultos; Sonia Celia Bruegno.;0;D;45
+175;2;1;Subsecretario de Educación Técnico Profesional; Gladys del Lujan Cruseño.;0;D;45
+176;2;1;Dirección de Recursos Humanos;Vacante;0;D;45
+177;2;1;Dirección de Coordinación Técnico Administrativa;Vacante;0;D;45
+178;2;1; Cordinación Interinstitucional;Vacante;0;D;45
+179;16;1;Secretario Privado; Roberto Raúl Verna.;0;D;45
+180;16;1;Dirección General de Estadísticas y Censos; Laura Patricia Biasotti.;0;D;45
+181;16;1;Dirección General de Tecnología e Innovación Tecnológica; Luz María Lardone.;0;D;45
+182;16;1;Subdirección General de Ciencia y Tecnología Aplicada; Gabriel Rodrigo.;0;D;45
+183;16;1;Dirección de Desarrollo Agroalimentario; María Belen Paesani.;0;D;45
+184;16;1;Subdirección General de Cadenas Agraolimentarias; Nicolás Abel Tobal.;0;D;45
+185;16;1;Subsecretaria de Asuntos Agrarios; Alexis Javier Benini.;0;D;45
+186;16;1;Dirección de Agricultura; Natalia Ivon Ovando.;0;D;45
+187;16;1;Dirección de Ganadería; Ricardo Sebastián Baraldi.;0;D;45
+188;16;1;Dirección de Recursos Naturales; Fernanda Beatriz González.;0;D;45
+189;16;1;Subdirección de Recursos Naturales; Federico Carlos Bruno.;0;D;45
+190;16;1;Director de Extensión Agropecuaria; Manuel Rodrigo Fernández.;0;D;45
+191;16;1;Secretario Instituto Promoción Económica; Fernando José Fernández.;0;D;45
+192;16;1;Subsecretaría de Desarrollo Local; Ariel Alberto Aquino Rodríguez.;0;D;45
+193;16;1;Dirección de Capacitación y Comercio; Aixa Clemencia Salussoglia.;0;D;45
+194;16;1;Dirección de Micro Emprendimientos y Micro Pymes; Marcos Eduardo Pico.;0;D;45
+195;16;1;Subsecretaría de Industria; Silvano Juan Tonellotto.;0;D;45
+196;16;1;Dirección de Comercio y Competitividad; Pablo Nicolo Cavalaro.;0;D;45
+197;16;1;Dirección de Desarrollo Industrial; Vanina Andrea Fernández.;0;D;45
+198;16;1;Dirección de Asistencia Técnica y Financiera; Lilia Beatriz Cortese.;0;D;45
+199;16;1;Presidente Comité de Vigilancia Zona Franca; Germán Daniel Luqui.;0;D;45
+200;16;1;Dirección de Relaciones Institucionales; Alejandra Aida Alonso.;0;D;45
+201;16;1;Presidente Ente Provincial del Río Colorado; Enrique Eberardo Schmidt.;0;D;45
+202;16;1;1° Vocal ; Roberto Oscar Bigorito.;0;D;45
+203;16;1;2° Vocal; Fernando Gimenez Andiarena.;0;D;45
+204;16;1;Gerente de Obras; Sergio Iván Hernández.;0;D;45
+205;16;1;Asesor en Planeamiento; Enzo Amércio Mugnani Aubone.;0;D;45
+206;16;1;Gerencia de Admistración; María Florencia Somoneti;0;D;45
+207;16;1;Gerente General ; María Natalia Gaccio.;0;D;45
+208;16;1;Gerencia de Producción; José María Larrazabal.;0;D;45
+209;16;1;Gerencia de Colonización; Juliana del Socorro González.;0;D;45
+210;16;1;Asesor Legal; Jazmín Alvarez Cuellar.;0;D;45
+211;27;1;Secretaría Privada; Liliana Beatriz Díaz.;0;D;45
+212;27;1;Dirección de Coordinación Institucional; Lucas Ceferino Gaggioli.;0;D;45
+213;27;1;Subsecretaria de Tecnología, Innovación y Conocimientos; Dante Adalberto Moreno.;0;D;45
+214;27;1;Dirección de Inclusión Digital; José Andrés Zulueta.;0;D;45
+215;27;1;Dirección de Servicios Informáticos; Elisa Neri Lezcano.;0;D;45
+216;27;1;Subsecretaría de Modernización; Liliana del Carmen Sierra.;0;D;45
+217;27;1;Dirección de Seguimiento y Evaluación de Políticas Públicas; Ariana Gómez.;0;D;45
+218;27;1;Dirección de Gobierno Digital; Federico Aldama.;0;D;45
+219;27;1;Dirección de Modernización Administrativa; Mariela Sernaglia.;0;D;45
+220;22;1;Secretario Privado; Mariano Carlos Martínez.;0;D;45
+221;22;1;Subsecretario de Hacienda; Guido Alberto Bisterfeld.;0;D;45
+222;22;1;Dirección General de Presupuesto; Viviana Soledad Otero.;0;D;45
+223;22;1;Subdirección General de Presupuesto; Anabel Andrea Aza Jensen.;0;D;45
+224;22;1;Dirección del Gasto Público; Diego Ezequiel Aguirre.;0;D;45
+225;22;1;Subsecretario de Ingresos Públicos; Alejandro Marcos Vicente.;0;D;45
+226;22;1;Dirección General de Ingresos y Crédito Público; Hernán Javier Mercado Mancinelli.;0;D;45
+227;22;1;Subdirección de Ingresos y Crédito Público; Natalia Esther Panasiuk.;0;D;45
+228;22;1;Dirección General de Rentas; Javier Darío Fornero.;0;D;45
+229;22;1;Subdirección General de Rentas; Lorena Leandra Merkel.;0;D;45
+230;22;1;Dirección General de Catastro; Héctor Oscar Erburu.;0;D;45
+231;22;1;Subdirección General de Catastro; Javier Alberto Diesser.;0;D;45
+232;22;1;Subcontador General; Eduardo Ángel Talone Río.;0;D;45
+233;22;1;Dirección de Contabilidad y Administración; Facundo Román García Ancin.;0;D;45
+234;22;1;Dirección General de Personal; Juan Dionilio Rivero.;0;D;45
+235;22;1;Subdirección General de Personal; Susana Beatriz Surra.;0;D;45
+236;22;1;Subtesorera General; Amalia Ferreira Basterra.;0;D;45
+237;22;1;Centro Provincial de Inclusión Previsional (CEPIP);;0;D;45
+238;22;1;Coordinador General CEPIP; Raúl Oscar Cuevas.;0;D;45
+239;5;1;Secretaria Privada; María Virginia Gallego.;0;D;45
+240;5;1;Presidente  DPV; Rodrigo Miguel Cadenas.;0;D;45
+241;5;1;Ingeniero jefe; Santiago Manuel Chaer.;0;D;45
+242;5;1;Subsecretario de Acueductos; Juan Carlos Virgilio Mecca.;0;D;45
+243;5;1;Subsecretario de Obras y Servicios Públicos; Julio Jorge Rojo.;0;D;45
+244;5;1;Dirección General de Obras Públicas; Sergio Alfredo Melian.;0;D;45
+245;5;1;Dirección del Registro de Licitadores; Diego Fernando Ullan.;0;D;45
+246;5;1;Dirección de Obras Básicas y Arquitectura; Antonella Dosso.;0;D;45
+247;5;1;Dirección de Inspecciones; Guillermo Darío Garrone.;0;D;45
+248;5;1;Dirección de Conservación; José Santiago Briones.;0;D;45
+249;5;1;Dirección de Obras Nacionales de Educación; Héctor Raúl Ameglio.;0;D;45
+250;5;1;Subsecretario de Planificación y Transporte; Juan Carlos Guzmán.;0;D;45
+251;5;1;Dirección de Transporte; Mauricio Germán Márquez.;0;D;45
+252;5;1;Secretario Legal del Consejo de Obras Públicas; Daniel Gregorio Diez.;0;D;45
+253;5;1;Secretaria Técnica; Valentina Zorzi Ferreiro.;0;D;45
+254;5;1;Secretaria de Control de Gestión; Diego Guillermo Heck.;0;D;45
+255;5;1;Secretaria de Planificación; Darío Fernando Tobal.;0;D;45
+256;5;1;Presidente IPAV; Jorge Alberto Lezcano.;0;D;45
+257;5;1;Gerente General; Walter René Facchipieri.;0;D;45
+258;5;1;Gerencia Técnica; Mariano Adrián Ferreti.;0;D;45
+259;5;1;Gerencia Técnico Administrativo; Victoria Rodríguez Marre.;0;D;45
+260;5;1;Gerencia de Programación; Romina Soledad Montes de Oca.;0;D;45
+261;5;1;Gerencia Legal; Gustavo Carlos Minetto Fernández.;0;D;45
+262;5;1;Gerencia de Planificación y Adjudicación; Erica Jorgelina Riboyra.;0;D;45
+263;5;1;Gerencia Contable Financiera; Ramiro Adrián Rodríguez.;0;D;45
+264;5;1;Gerencia de Control y Supervisión; Mario Andrés Schmidt.;0;D;45
+265;5;1;Gerencia de Acueductos; Eduardo Alberto Mangas.;0;D;45
+266;5;1;Gerencia Administrativa Contable; Marcos Daniel Dosio.;0;D;45
+267;5;1;Gerencia Técnica; Fabricio Mauro Alfredo González Martín.;0;D;45
+268;28;1;Secretaria Privada; Natalia Soledad Petrina.;0;D;45
+269;28;1;Susecretaría de Hidrocarburos y Minería; María Cecilia Baudino.;0;D;45
+270;28;1;Dirección de Minería e Inspecciones ; Cristian Ivan Buss.;0;D;45
+271;28;1;Director de Hidrocarburos; Juan José del Rio.;0;D;45
+272;28;1;Administrador Provincial de Energía ; Cristián Javier Andrés.;0;D;45
+273;28;1;Gerente de Explotación; Edgardo Javier Schanck.;0;D;45
+274;28;1;Gerente Técnico; Luciano Ramiro González.;0;D;45
+275;28;1;Gerente de Coordinación y Planificación; Daniel Antonio Ucciardello.;0;D;45
+276;28;1;Gerente de Administración y Finanzas; Horacio Darío Zubeldia Núñez.;0;D;45
+277;28;1;Subsecretaria de Energías Renovables; Claudio Gordillo.;0;D;45
+278;28;1;Dirección de Comunicación, Ahorro y Eficiencia Energética; Pablo Gabriel Datri.;0;D;45
+279;28;1;Dirección de Planificación y Proyectos; Vanina Betsabe Basso.;0;D;45
+280;28;1;Cargo vacante; Dirección de Control Operativo.;0;D;45
+281;32;1;Directora Titular en Representación del Capital Estatal (Presidenta); María de los Ángeles Roveda.;0;D;45
+282;32;1;Director Titular en Representación de Capital Estatal - Acciones Clase A; Julio Néstor Bargero.;0;D;45
+283;32;1;Director Titular en Representación de Capital Estatal - Acciones Clase A; Luis Alberto Campo .;0;D;45
+284;14;1;Secretaria Privada; Carla Lorena Villarreal.;0;D;45
+285;14;1;Subsecretaria de Planificación Económica y Asistencia Financiera ; Ricardo Silva.;0;D;45
+286;14;1;Subsecretaria de Planificación Territorial; Gabriel Oscar Reiter.;0;D;45
+287;14;1;Dirección General Zona 1; Claudia Marina Godoy.;0;D;45
+288;14;1;Dirección General Zona 2; José Osmar García.;0;D;45
+289;14;1;Dirección de Regulación de Tierras; Valeria Ruth Losada.;0;D;45
+290;19;1;Subsecretaría de Coordinación de Cultura; Beatriz Eugenia Calderón.;0;D;45
+291;19;1;Directora Provincial de Artística; Malva Ofelia Roldán.;0;D;45
+292;19;1;Coordinador General Banda Sinfónica; Manuel Eduardo Gerez.;0;D;45
+293;19;1;Director del Museo Provincial de Historia Natural; Marcos Martín Cenizo.;0;D;45
+294;19;1;Director del Museo Provincial de Artes; Pablo Lucero Álvarez.;0;D;45
+295;19;1;Secretaria Privada; Lorena Antonia Rubín.;0;D;45
+296;7;1;Secretaria Privada; María Florencia González Leyton.;0;D;45
+297;7;1;Dirección de Políticas Hídricas; Ricardo Gastón Buss.;0;D;45
+298;7;1;Dirección de Investigación Hídrica; Pamela Pratts.;0;D;45
+299;7;1;Representante Alterno ante COIRCO; Juan Antonio Grecco.;0;D;45
+300;31;1;Subsecretaria de Políticas de Igualdad; Patricia Andrea Asquini.;0;D;45
+301;31;1;Directora de Planificación, Promoción y Asistencia a la Mujer; Fernanda Gabriela Dolsan.;0;D;45
+302;31;1;Directora de Coordinación y Relaciones Institucionales; Carina Lorena Romero.;0;D;45
+303;31;1;Subdirectora del Observatorio de Género; Lorena Elizabet Gigena.;0;D;45
+304;31;1;Subdirectora de Seguimiento Ley Micaela; Nancy Karina Fernández De la Vega.;0;D;45
+305;31;1;Secretaria Privada; Micol Agostina Motta.;0;D;45
+306;31;1;Subdirectora de Comunicación; María Macarena Bauman.;0;D;45
+307;29;1;Secretario Privado; Mauro Ariel Gonzalez.;0;D;45
+308;29;1;Desarrollo Turístico; Lautaro Germán Córdoba.;0;D;45
+309;29;1;Directora de Desarrollo de la Oferta Turística; Ana Florencia Stefanazzi Arce.;0;D;45
+310;29;1;Directora de Producciones Artesanales; Andrea Silvina Pombar.;0;D;45
+311;29;1;Director de Reserva Provincial Parque Luro; Benigno Oscar Estigarribia.;0;D;45
+312;29;1;Subsecretaría de Planificación; Laura Davini.;0;D;45
+313;30;1;Secretaría Privada; Sofía Pamela Kremer.;0;D;45
+314;30;1;Subsecretaría de Relaciones Laborales; Edgardo Santiago Senen González.;0;D;45
+315;30;1;Dirección General de Relaciones Laborales; Leonardo Manuel Luque.;0;D;45
+316;30;1;Dirección de Inspección y SRT; José Gerardo Salvadori Andrade.;0;D;45
+317;30;1;Delegado General Pico; David José Divan.;0;D;45
+318;30;1;Delegado de General Acha; Federico Ariel Rivara.;0;D;45
+319;30;1;Delegado de 25 de Mayo; Lucas Nicolás Baudino.;0;D;45
+320;30;1;Subsecretaría de Empleo y Capacitación laboral; Daniel Alberto Decristofano.;0;D;45
+321;30;1;Dirección de Promoción del Empleo; Marcelo Aliaga.;0;D;45
+322;30;1;Dirección de Capacitación y Formación Laboral; María Celeste Segurado Martín.;0;D;45
